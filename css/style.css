@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* reset */
+* {box-sizing: border-box; margin:0; padding:0; }
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, select, td, textarea, th, ul {margin:0;padding:0}
+fieldset, img {border:0}
+dl, li, menu, ol, ul {list-style:none}
+blockquote, q {quotes:none}
+blockquote:after, blockquote:before, q:after, q:before {content:"";content:none}
+button, input, select, textarea {vertical-align:middle;font-size:100%}
+button {border:0;background-color:transparent;cursor:pointer}
+table {border-collapse:collapse;border-spacing:0}
+body {-webkit-text-size-adjust:none}
+input:checked[type=checkbox] {background-color:#666;-webkit-appearance:checkbox}
+html input[type=button], input[type=email], input[type=password], input[type=reset], input[type=search], input[type=submit], input[type=tel], input[type=text] {-webkit-appearance:none;border-radius:0}
+input[type=search]::-webkit-search-cancel-button {-webkit-appearance:none}
+body {background:var(--baseBackground)}
+body, button, input, select, td, textarea, th {font-size:14px;line-height:1.5;font-family: Malgun Gothic, 맑은 고딕, sans-serif;font-weight:400;color:#333}
+a {color:#333}
+a, a:active, a:hover {text-decoration:none}
+address, caption, cite, code, dfn, em, var {font-style:normal;font-weight:400}
+
+/* 이미지 설정 */
+img{width:100%;height: 100%; display:block;}
+
+/* 폰트설정 */
+
+/* 전체 */
+#wrapper{width:100%;max-width:1920px;min-width:1280px;height:100vh;}
+
+/* 헤더 */
+header{width: 100%;height: 80px; background: #000; display: flex;flex-direction: row; flex-wrap: nowrap; align-items: center; justify-content: space-between;padding: 0 20px;}
+header h1{max-width: 100%;cursor: pointer;}
+nav ul{display: flex; gap: 30px; color: #fff;}
+
+.navother{width: 469px; height: 50px; display: flex; gap: 30px;}
+.navother .navother__basecamp{width: 90px;height: 32px;}
+.navother .navother__search{width: 184px;height: 40px;background: #fff;}
+.navother .navother__search .navother__search--icon{background: url(../img/icon_search.svg) left center / 20px 20px no-repeat ;}
+.navother .navother__search .navother__search--input{}
+.navother .navother__login{}
+.navother .navother__shopping{}
+
+/* 메인 */
+
+
+/* 푸터 */
